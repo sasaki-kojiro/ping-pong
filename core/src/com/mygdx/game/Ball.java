@@ -3,7 +3,7 @@ package com.mygdx.game;
 import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
-public class Ball  {
+public class Ball {
     Texture texture;
     int x, y;
     int velocityX = 10 , velocityY = 10;
