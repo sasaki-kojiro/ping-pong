@@ -1,0 +1,23 @@
+#Internal package file, do not edit.
+#Wed Dec 05 22:41:34 EET 2018
+2.base=D\:\\Learning\\Java\\Lessons with Max\\ping-pong\\android\\build\\intermediates\\assets\\debug
+0.path=bounce1.ogg
+2.baseType=DIRECTORY
+3.base=D\:\\Learning\\Java\\Lessons with Max\\ping-pong\\android\\build\\intermediates\\assets\\debug
+2.set=ASSET
+1.path=paddle.bmp
+4.base=D\:\\Learning\\Java\\Lessons with Max\\ping-pong\\android\\build\\intermediates\\assets\\debug
+count=5
+2.path=ball_small.png
+4.set=ASSET
+3.path=bounce2.ogg
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=bounce3.ogg
+1.baseType=DIRECTORY
+0.base=D\:\\Learning\\Java\\Lessons with Max\\ping-pong\\android\\build\\intermediates\\assets\\debug
+0.baseType=DIRECTORY
+3.set=ASSET
+1.base=D\:\\Learning\\Java\\Lessons with Max\\ping-pong\\android\\build\\intermediates\\assets\\debug
+4.baseType=DIRECTORY
+0.set=ASSET

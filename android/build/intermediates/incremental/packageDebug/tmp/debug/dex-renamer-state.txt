@@ -1,0 +1,7 @@
+#Wed Dec 05 22:41:35 EET 2018
+base.0=D\:\\Learning\\Java\\Lessons with Max\\ping-pong\\android\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+path.1=classes.dex
+renamed.1=classes2.dex
+path.0=classes.dex
+renamed.0=classes.dex
+base.1=D\:\\Learning\\Java\\Lessons with Max\\ping-pong\\android\\build\\intermediates\\transforms\\dexMerger\\debug\\12
