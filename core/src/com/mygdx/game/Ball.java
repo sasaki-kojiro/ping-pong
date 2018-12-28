@@ -6,7 +6,8 @@ import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 public class Ball {
     Texture texture;
     int x, y;
-    int velocityX = 10 , velocityY = 10;
+    final int INITIAL_BALL_SPEED = 10;
+    int velocityX = INITIAL_BALL_SPEED, velocityY = INITIAL_BALL_SPEED;
     final int FRAMES_TO_WAIT_BEFORE_BALL_START = 60;
     int ballStartFrameCounter;
     int ballFlyFrameCounter;
@@ -18,6 +19,7 @@ public class Ball {
     }
 
     void move(Paddle paddle) {
+        ballStartFrameCounter++;
         //if the ball already flies
         if (ballStartFrameCounter >= FRAMES_TO_WAIT_BEFORE_BALL_START) {
             x += velocityX;
@@ -49,6 +51,7 @@ public class Ball {
         x = paddle.x + paddle.texture.getWidth() / 2 - texture.getHeight() / 2;
         y = paddle.y + paddle.texture.getHeight();
         ballStartFrameCounter = 0;
+        velocityY = Math.abs(velocityY);
     }
 
     void dispose () {
