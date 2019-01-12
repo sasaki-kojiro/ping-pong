@@ -5,24 +5,24 @@
     build-mode="COLD"
     density="xxhdpi"
     format="10"
-    ir-eligibility="FIELD_ADDED"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.1.0"
-    timestamp="1546001344760"
+    timestamp="1546461122853"
     token="-5058585939082736294"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="52" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="32" />
+        duration="33" />
     <task
         name="verifier"
-        duration="7" />
+        duration="12" />
 
     <artifact
         location="D:\Learning\Java\Lessons with Max\ping-pong\android\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -33,7 +33,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1545995983476"
+        timestamp="1546460165502"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="D:\Learning\Java\Lessons with Max\ping-pong\android\build\intermediates\split-apk\debug\slices\slice_4.apk"
@@ -74,8 +74,8 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="METHOD_ADDED"
-        timestamp="1546000493326"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1546460699372"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Learning\Java\Lessons with Max\ping-pong\android\build\intermediates\instant-run-apk\debug\android-debug.apk"
@@ -83,8 +83,8 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="FIELD_ADDED"
-        timestamp="1546001344760"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1546461122853"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="D:\Learning\Java\Lessons with Max\ping-pong\android\build\intermediates\split-apk\debug\slices\slice_4.apk"

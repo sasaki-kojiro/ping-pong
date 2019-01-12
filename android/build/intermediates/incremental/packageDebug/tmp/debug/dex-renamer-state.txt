@@ -1,4 +1,4 @@
-#Fri Dec 28 13:19:53 EET 2018
+#Wed Jan 02 22:16:15 EET 2019
 base.0=D\:\\Learning\\Java\\Lessons with Max\\ping-pong\\android\\build\\intermediates\\transforms\\dexMerger\\debug\\11
 path.1=classes.dex
 renamed.1=classes2.dex

@@ -15,30 +15,37 @@ public class PongGame extends ApplicationAdapter {
 	int score;
 	final int CATCH_BALL_BONUS = 100;
 	BitmapFont font;
-	final int INITIAL_LIVES_COUNT = 1;
+	final int INITIAL_LIVES_COUNT = 3;
 	int livesCount = INITIAL_LIVES_COUNT;
 	Texture gameOverTexture;
 	boolean isGameOver;
 	Button closeBtn;
 	Button replayBtn;
+	Texture skyTexture;
 
 	@Override
 	public void create () {
-		batch = new SpriteBatch();
-		font = new BitmapFont();
+		generateObjects();
+
 		font.getData().setScale(5);
-		ball = new Ball();
-		paddle = new Paddle();
 		paddle.center();
 		ball.restart(paddle);
-		soundManager = new SoundManager();
 		soundManager.loadSounds();
-		closeBtn = new Button("close_btn.png");
 		closeBtn.y = 10;
 		closeBtn.x = Gdx.graphics.getWidth() - closeBtn.texture.getWidth();
-		replayBtn = new Button ("replay_btn.png");
 		replayBtn.y = 10;
+	}
+
+	private void generateObjects() {
+		batch = new SpriteBatch();
+		font = new BitmapFont();
+		ball = new Ball();
+		paddle = new Paddle();
+		soundManager = new SoundManager();
+		closeBtn = new Button("close_btn.png");
+		replayBtn = new Button ("replay_btn.png");
 		gameOverTexture = new Texture("game_over_logo.jpg");
+		skyTexture = new Texture ("sky_jpeg.jpg");
 	}
 
 
@@ -94,6 +101,7 @@ public class PongGame extends ApplicationAdapter {
 		Gdx.gl.glClear(GL20.GL_COLOR_BUFFER_BIT);
 
 		batch.begin();
+		batch.draw (skyTexture, 0, 0, Gdx.graphics.getWidth(), Gdx.graphics.getHeight());
 		font.draw(batch, "Score: " + score + "   Lives " + livesCount, 0, Gdx.graphics.getHeight());
 		ball.draw(batch);
 		paddle.draw(batch);
@@ -102,6 +110,7 @@ public class PongGame extends ApplicationAdapter {
 					(Gdx.graphics.getHeight() - gameOverTexture.getHeight()) / 2);
 			closeBtn.draw(batch);
 			replayBtn.draw(batch);
+			font.draw(batch, "Coded by Andra", 100, 500);
 		}
 		batch.end();
 	}
@@ -116,6 +125,7 @@ public class PongGame extends ApplicationAdapter {
 		replayBtn.dispose();
 		soundManager.dispose();
 		gameOverTexture.dispose();
+		skyTexture.dispose();
 	}
 
 	private void collideBall () {

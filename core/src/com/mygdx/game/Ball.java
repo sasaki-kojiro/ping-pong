@@ -31,6 +31,7 @@ public class Ball {
         }
     }
 
+    //speed up ball by 1 every 100 frames the ball moves
     private void speedUpBallIfNeeded() {
         if (ballFlyFrameCounter == FRAMES_TO_WAIT_BEFORE_SPEEDING_UP_BALL) {
             if (velocityX >= 0) {

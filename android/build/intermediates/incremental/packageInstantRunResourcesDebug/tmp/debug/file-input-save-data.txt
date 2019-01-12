@@ -1,16 +1,17 @@
 #Internal package file, do not edit.
-#Fri Dec 28 13:19:49 EET 2018
+#Wed Jan 02 22:16:10 EET 2019
 4.path=lose_ball.ogg
 8.set=ASSET
 6.path=ball_small.png
 0.baseType=DIRECTORY
 5.baseType=DIRECTORY
 1.base=D\:\\Learning\\Java\\Lessons with Max\\ping-pong\\android\\build\\intermediates\\assets\\debug
-8.path=bounce3.ogg
+8.path=bounce2.ogg
 3.base=D\:\\Learning\\Java\\Lessons with Max\\ping-pong\\android\\build\\intermediates\\assets\\debug
 4.set=ASSET
 5.base=D\:\\Learning\\Java\\Lessons with Max\\ping-pong\\android\\build\\intermediates\\assets\\debug
 7.base=D\:\\Learning\\Java\\Lessons with Max\\ping-pong\\android\\build\\intermediates\\assets\\debug
+9.base=D\:\\Learning\\Java\\Lessons with Max\\ping-pong\\android\\build\\intermediates\\assets\\debug
 1.baseType=DIRECTORY
 0.set=ASSET
 6.baseType=DIRECTORY
@@ -22,7 +23,8 @@
 3.path=game_over_logo.jpg
 5.path=paddle.bmp
 0.base=D\:\\Learning\\Java\\Lessons with Max\\ping-pong\\android\\build\\intermediates\\assets\\debug
-7.path=bounce2.ogg
+7.path=sky_jpeg.jpg
+9.path=bounce3.ogg
 6.set=ASSET
 2.base=D\:\\Learning\\Java\\Lessons with Max\\ping-pong\\android\\build\\intermediates\\assets\\debug
 4.base=D\:\\Learning\\Java\\Lessons with Max\\ping-pong\\android\\build\\intermediates\\assets\\debug
@@ -31,9 +33,11 @@
 8.base=D\:\\Learning\\Java\\Lessons with Max\\ping-pong\\android\\build\\intermediates\\assets\\debug
 2.set=ASSET
 8.baseType=DIRECTORY
-count=9
+9.set=ASSET
+count=10
 4.baseType=DIRECTORY
 5.set=ASSET
+9.baseType=DIRECTORY
 0.path=bounce1.ogg
 1.set=ASSET
 2.path=replay_btn.png
